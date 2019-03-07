@@ -1,0 +1,61 @@
+<!--
+  Generated template for the CreateSalePointView_1Page page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Creación - Punto de venta</ion-title>
+  </ion-navbar>
+  <ion-toolbar>
+      <ion-title>Paso 1<br>Información General Del PDV</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content padding>
+  <form [formGroup]="form" (ngSubmit)="nextView(form)">
+    <ion-card>
+      <p class="subtitle">Cliente</p>
+      <ion-item>
+        <ion-label></ion-label>
+        <ion-select formControlName="cliente">
+          <ion-option *ngFor="let client of clients" value="{{client.nit}}">{{client.razon}}</ion-option>
+        </ion-select>
+      </ion-item>
+    </ion-card>
+    <ion-card>
+      <p class="subtitle">Persona De Contacto</p>
+      <ion-input type="text" formControlName="contacto" placeholder="Persona de contacto"></ion-input>
+    </ion-card>
+    <ion-card>
+      <p class="subtitle">Dirección</p>
+      <ion-input type="text" formControlName="direccion" placeholder="Dirección"></ion-input>
+    </ion-card>
+    <ion-card>
+      <p class="subtitle">Teléfono De Contacto</p>
+      <ion-input type="text" formControlName="telefono" placeholder="Teléfono"></ion-input>
+    </ion-card>
+    <ion-card>
+      <p class="subtitle">Correo</p>
+      <ion-input type="text" formControlName="correo" placeholder="Correo"></ion-input>
+    </ion-card>
+    <ion-card>
+      <p class="subtitle">Productos o servicios prestados en el punto</p>
+      <ion-item>
+        <ion-label></ion-label>
+        <ion-select formControlName="productos_servicios">
+          <ion-option value="1">1</ion-option>
+          <ion-option value="2">2</ion-option>
+          <ion-option value="3">3</ion-option>
+        </ion-select>
+      </ion-item>
+    </ion-card>
+    <button ion-button type="submit" item-center [disabled]="!form.valid">Siguiente</button>
+  </form>
+</ion-content>

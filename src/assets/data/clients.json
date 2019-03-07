@@ -1,0 +1,132 @@
+[
+    {
+        "razon":"EDW CORP",
+        "foto":"assets/data/img1.png",
+        "empresa":"EDW",
+        "fecha":"05/feb/2019",
+        "asesor":"Jose Cuervo",
+        "rut":"123123",
+        "nit":"103922912",
+        "direccion":"Calle 45 # 12 - 31",
+        "telefono":"3212233",
+        "ciudad":"Bogotá",
+        "barrio":"La estrada",
+        "rep_legal":"Guillermo García",
+        "celular":"3213212321",
+        "correo":"gargui@gmail.com",
+        "r_ica":"Sí",
+        "ciudad_r_ica":"Bogotá",
+        "contactos":[
+            {
+                "tipo":"Compras",
+                "nombres":"Pepe Tellez",
+                "telefono":"4223312",
+                "correo":"tepelle@gmail.com"
+            },
+            {
+                "tipo":"Financiero",
+                "nombres":"Carlos Gomez",
+                "telefono":"2231123",
+                "correo":"calito@gmail.com"
+            }
+        ],
+        "usuarios_auth":[
+            {
+                "nombre":"Sandra Caceres",
+                "cargo":"Adminstración",
+                "telefono":"4223312",
+                "correo":"tepelle@gmail.com"
+            },
+            {
+                "nombre":"Eustaquio Martinez",
+                "cargo":"Arquitecto",
+                "telefono":"2231123",
+                "correo":"calito@gmail.com"
+            }
+        ],
+        "con_cemento":"Sí",
+        "cap_comp_mensual":"10kg",
+        "color":"Gris",
+        "con_concreto":"No",
+        "con_tot_concreto":"40Ton",
+        "proveedores":[
+            {
+                "marca":"Cemex",
+                "precio":"30.000"
+            },
+            {
+                "marca":"Argos",
+                "precio":"60.000"
+            }
+        ],
+        "cliente_clas":"Clasificación",
+        "tipo_clas":"Buena",
+        "can_ven":"1",
+        "sub_can_ven":"2"
+    },
+    {
+        "razon":"Coca Cola",
+        "foto":"assets/data/img2.jpeg",
+        "empresa":"Huawei",
+        "fecha":"05/ene/2019",
+        "asesor":"Camilo Lopez",
+        "rut":"12312312-12",
+        "nit":"887232912",
+        "direccion":"Calle 45 # 30 - 31",
+        "telefono":"3220931",
+        "ciudad":"Medellín",
+        "barrio":"El Poblado",
+        "rep_legal":"Francisco García",
+        "celular":"3102312321",
+        "correo":"francisgui@gmail.com",
+        "r_ica":"No",
+        "ciudad_r_ica":"",
+        "contactos":[
+            {
+                "tipo":"Compras",
+                "nombres":"Pepe Tellez",
+                "telefono":"4223312",
+                "correo":"tepelle@gmail.com"
+            },
+            {
+                "tipo":"Financiero",
+                "nombres":"Carlos Gomez",
+                "telefono":"2231123",
+                "correo":"calito@gmail.com"
+            }
+        ],
+        "usuarios_auth":[
+            {
+                "nombre":"Sandra Caceres",
+                "cargo":"Adminstración",
+                "telefono":"4223312",
+                "correo":"tepelle@gmail.com"
+            },
+            {
+                "nombre":"Eustaquio Martinez",
+                "cargo":"Arquitecto",
+                "telefono":"2231123",
+                "correo":"calito@gmail.com"
+            }
+        ],
+        "con_cemento":"Sí",
+        "cap_comp_mensual":"10kg",
+        "color":"Gris",
+        "con_concreto":"No",
+        "con_tot_concreto":"40Ton",
+        "proveedores":[
+            {
+                "marca":"Cemex",
+                "precio":"30.000"
+            },
+            {
+                "marca":"Argos",
+                "precio":"60.000"
+            }
+        ],
+        "cliente_clas":"Clasificación",
+        "tipo_clas":"Buena",
+        "can_ven":"2",
+        "sub_can_ven":"3"
+    }
+]

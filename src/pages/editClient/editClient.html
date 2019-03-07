@@ -1,0 +1,77 @@
+<!--
+  Generated template for the EditClientPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>Editar Cliente</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <form [formGroup]="todo" (ngSubmit)="logForm(form)">
+    <ion-card>
+      <p class="subtitle">Razón Social<p>
+      <ion-input type="text" value="{{client.razon}}" formControlName="razon" placeholder="Razón social"></ion-input>
+    </ion-card>
+    <ion-card>
+        <p class="subtitle">Rut<p>
+        <ion-input type="text" value="{{client.rut}}" formControlName="rut" placeholder="Rut"></ion-input>
+    </ion-card>
+    <ion-card>
+      <p class="subtitle">Nit</p>
+      <ion-input type="text" value="{{client.nit}}" formControlName="nit" placeholder="Nit"></ion-input>
+    </ion-card>
+    <ion-card>
+        <p class="subtitle">Representante Legal<p>
+        <ion-input type="text" value="{{client.rep_legal}}" formControlName="rep_legal" placeholder="Representante Legal"></ion-input>
+    </ion-card>
+    <ion-card>
+        <p class="subtitle">Ciudad<p>
+        <ion-input type="text" value="{{client.ciudad}}" formControlName="ciudad" placeholder="Ciudad"></ion-input>
+      </ion-card>
+    <ion-card>
+      <p class="subtitle">Dirección Principal</p>
+      <ion-input type="text" value="{{client.direccion}}" formControlName="direccion" placeholder="Dirección"></ion-input>
+    </ion-card>
+    <ion-card>
+      <p class="subtitle">Barrio<p>
+      <ion-input type="text" value="{{client.barrio}}" formControlName="barrio" placeholder="Barrio"></ion-input>
+    </ion-card>
+    <ion-card>
+      <p class="subtitle">Teléfono</p>
+      <ion-input type="text" value="{{client.telefono}}" formControlName="telefono" placeholder="Teléfono"></ion-input>
+    </ion-card>
+    <ion-card>
+      <p class="subtitle">Correo</p>
+      <ion-input type="text" value="{{client.correo}}" formControlName="correo" placeholder="Correo"></ion-input>
+    </ion-card>
+    <ion-card>
+      <p class="subtitle">Canal De Ventas</p>
+      <ion-item>
+        <ion-label></ion-label>
+        <ion-select formControlName="can_ven">
+          <ion-option value="1">1</ion-option>
+          <ion-option value="2">2</ion-option>
+          <ion-option value="3">3</ion-option>
+        </ion-select>
+    </ion-item>
+    </ion-card>
+    <ion-card>
+      <p class="subtitle">Subcanal De Ventas</p>
+      <ion-item>
+        <ion-label></ion-label>
+        <ion-select formControlName="sub_can_ven">
+          <ion-option value="1">1</ion-option>
+          <ion-option value="2">2</ion-option>
+          <ion-option value="3">3</ion-option>
+        </ion-select>
+      </ion-item>
+    </ion-card>
+    <button ion-button color="secondary" type="submit" [disabled]="!todo.valid">Guardar</button>
+  </form>
+</ion-content>

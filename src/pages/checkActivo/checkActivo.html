@@ -1,0 +1,24 @@
+<!--
+  Generated template for the CheckActivoPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Checking Activos</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <button ion-item *ngFor="let activo of activos" (click)="makeCheck(activo)">
+        <ion-icon name="{{activo.logo}}" item-start></ion-icon>
+        <h2>{{activo.nombre}}</h2>
+        <p>{{activo.placa}}</p>
+      </button>
+</ion-content>

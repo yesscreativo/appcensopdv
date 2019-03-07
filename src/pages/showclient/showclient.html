@@ -1,0 +1,108 @@
+<!--
+  Generated template for the ShowclientPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>Cliente</ion-title>
+  </ion-navbar>
+  <ion-toolbar>
+    <ion-segment [(ngModel)]="views" color="secondary">
+      <ion-segment-button value="info">
+        Información
+      </ion-segment-button>
+      <ion-segment-button value="activosPage">
+        Tracking
+      </ion-segment-button>
+      <ion-segment-button value="staff">
+        Personal
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding [ngSwitch]="views">
+  <div *ngSwitchCase="'info'">
+    <ion-item>
+    <ion-avatar item-start>
+      <img src="{{client.foto}}">
+    </ion-avatar>
+    <h2 class="client-title">{{client.razon}}</h2>
+    </ion-item>
+    <ion-card class="values-item">
+      <p class="subtitle">Rut</p>
+      {{client.rut}}
+    </ion-card>
+    <ion-card class="values-item">
+      <p class="subtitle">Nit</p>
+      {{client.nit}}
+    </ion-card>
+    <ion-card class="values-item">
+        <p class="subtitle">Representante Legal</p>
+        {{client.rep_legal}}
+      </ion-card>
+    <ion-card class="values-item">
+      <p class="subtitle">Ciudad</p>
+      {{client.ciudad}}
+    </ion-card>
+    <ion-card class="values-item">
+      <p class="subtitle">Barrio</p>
+      {{client.barrio}}
+    </ion-card>
+    <ion-card class="values-item">
+      <p class="subtitle">Teléfono</p>
+      {{client.telefono}}
+    </ion-card>
+    <ion-card class="values-item">
+      <p class="subtitle">Correo</p>
+      {{client.correo}}
+    </ion-card>
+    <ion-card class="values-item">
+      <p class="subtitle">Representante Legal</p>
+      {{client.rep_legal}}
+    </ion-card>
+    <ion-card class="values-item">
+      <p class="subtitle">Celular</p>
+      {{client.celular}}
+    </ion-card>
+    <ion-card class="values-item">
+      <p class="subtitle">Ubicación</p>
+      {{client.direccion}}
+    </ion-card>
+    <ion-card class="values-item">
+      <p class="subtitle">Canal De Ventas</p>
+      {{client.can_ven}}
+    </ion-card>
+    <ion-card class="values-item">
+      <p class="subtitle">SubCanal De Ventas</p>
+      {{client.sub_can_ven}}
+    </ion-card>
+    <ion-card class="values-item">
+      <p class="subtitle">Puntos De Venta</p>
+      <ion-list>
+        <ion-card class="values-item" *ngFor="let salePoint of salePoints" >
+          <button ion-button round color="primary" outline item-start (click)="showGeoMap(salePoint)">
+            <ion-icon name="md-flag"></ion-icon>
+              {{salePoint.direccion}}
+          </button>
+        </ion-card>
+      </ion-list>
+    </ion-card>
+  </div>
+  <div *ngSwitchCase="'activosPage'">
+    <button ion-item *ngFor="let activo of activos" (click)="showTracking(activo,'activo')">
+      <ion-icon name="{{activo.logo}}" item-start></ion-icon>
+        <h2>{{activo.nombre}}</h2>
+        <p>{{activo.placa}}</p>
+          
+    </button>
+  </div>  
+  <div *ngSwitchCase="'staff'">
+    <button ion-item *ngFor="let staffVar of staffs" (click)="showTracking(staffVar,'staff')">
+      <ion-icon name="md-person" item-start></ion-icon>
+        {{staffVar.nombre}}
+    </button>
+  </div>  
+</ion-content>

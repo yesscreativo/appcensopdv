@@ -1,0 +1,13 @@
+page-encuestaCliente {
+    .subtitle{
+        text-align: center;
+    }
+
+    p.subtitle{
+        color: color($colors, secondary);
+    }
+
+    p.title{
+        color: color($colors, primary);
+    }
+}

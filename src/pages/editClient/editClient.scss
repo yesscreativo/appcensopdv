@@ -1,0 +1,14 @@
+page-editClient {
+    p.subtitle{
+        color: color($colors, secondary);
+    }
+    .submit{
+        align-self: center;
+    }
+    #map{
+        height: 100%;
+        width: 100%;
+        min-width: 100px;
+        min-height: 150px;
+    }
+}

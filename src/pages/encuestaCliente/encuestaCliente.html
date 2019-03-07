@@ -1,0 +1,167 @@
+<!--
+  Generated template for the Createsalepointview2Page page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Creación - Punto Cliente</ion-title>
+  </ion-navbar>
+  <ion-toolbar>
+      <ion-title>Paso 2<br>Encuesta Del PDV</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content padding>
+  <form [formGroup]="form">
+    <ion-card>
+      <p class="title">Datos Ferreteria<p>
+        <ion-card>
+          <p class="subtitle">Cantidad Vendedores De Mostrador</p>
+          <ion-input name="cantidad_vendedores_mostrador" id="cantidad_vendedores_mostrador" type="number" formControlName="cantidad_vendedores_mostrador" placeholder="0"></ion-input>
+        </ion-card>
+        <ion-card>
+          <p class="subtitle">Cantidad Vendedores Externos</p>
+          <ion-input type="number" formControlName="cantidad_vendedores_externos" placeholder="0"></ion-input>
+        </ion-card>
+        <ion-card>
+          <p class="subtitle">¿Tiene Ferreteria?</p>
+          <ion-list radio-group formControlName="tiene_ferreteria" [(ngModel)]="flags.tiene_ferreteria">
+            <ion-item>
+              <ion-label>Si</ion-label>
+              <ion-radio value="si" checked></ion-radio>
+            </ion-item>
+            <ion-item>
+              <ion-label>No</ion-label>
+              <ion-radio value="no"></ion-radio>
+            </ion-item>
+          </ion-list>
+        </ion-card>
+        <!--Solo si tiene ferreteria-->
+        <ion-card *ngIf="flags.tiene_ferreteria == 'si'" >
+          <p class="subtitle">Tamaño De La Ferreteria</p>
+          <ion-input type="number" formControlName="tamanio_ferreteria" placeholder="0"></ion-input>
+        </ion-card>
+        <ion-card *ngIf="flags.tiene_ferreteria == 'si'">
+          <p class="subtitle">¿Tiene Bodega?</p>
+          <ion-list radio-group formControlName="tiene_bodega" [(ngModel)]="flags.tiene_bodega">
+            <ion-item>
+              <ion-label>Si</ion-label>
+              <ion-radio value="si" checked></ion-radio>
+            </ion-item>
+            <ion-item>
+              <ion-label>No</ion-label>
+              <ion-radio value="no"></ion-radio>
+            </ion-item>
+          </ion-list>
+        </ion-card>
+        <!--Solo si tiene bodega-->
+        <ion-card *ngIf="flags.tiene_bodega == 'si'">
+          <p class="subtitle">Tamaño Bodega En Metros Cuadrados</p>
+          <ion-input type="number" formControlName="tamanio_bodega" placeholder="0"></ion-input>
+        </ion-card>
+        <!--bodega-->
+        <!--ferreteria-->
+        <ion-card>
+          <p class="subtitle">¿Distribuye Cemento?</p>
+          <ion-list radio-group formControlName="distribuye_cemento" >
+            <ion-item>
+              <ion-label>Si</ion-label>
+              <ion-radio value="si" checked></ion-radio>
+            </ion-item>
+            <ion-item>
+              <ion-label>No</ion-label>
+              <ion-radio value="no"></ion-radio>
+            </ion-item>
+          </ion-list>
+        </ion-card>
+        <ion-card>
+          <p class="subtitle">¿Tiene Camiones Para Distribuir?</p>
+          <ion-list radio-group formControlName="tiene_camiones" [(ngModel)]="flags.tiene_camiones" >
+            <ion-item>
+              <ion-label>Si</ion-label>
+              <ion-radio value="si" checked></ion-radio>
+            </ion-item>
+            <ion-item>
+              <ion-label>No</ion-label>
+              <ion-radio value="no"></ion-radio>
+            </ion-item>
+          </ion-list>
+        </ion-card>
+        <!--Solo si tiene camiones-->
+        <ion-card *ngIf="flags.tiene_camiones == 'si'">
+            <p class="subtitle">Cantidad De Camiones</p>
+            <ion-input type="number" formControlName="cantidad_camiones" placeholder="0"></ion-input>
+        </ion-card>
+        <ion-card *ngIf="flags.tiene_camiones == 'si'">
+            <p class="subtitle">Capacidad De Carga</p>
+            <ion-input type="text" formControlName="capacidad_carga" placeholder="0"></ion-input>
+        </ion-card>
+        <!--camiones-->
+        <ion-card>
+            <p class="subtitle">Marca Cemento</p>
+            <ion-input type="text" formControlName="marca_cemento1" placeholder="0"></ion-input>
+        </ion-card>
+        <ion-card>
+          <p class="subtitle">Precio De Venta</p>
+          <ion-input type="text" formControlName="costo_cemento1" placeholder="0"></ion-input>
+        </ion-card>
+        <ion-card>
+            <p class="subtitle">Marca Cemento</p>
+            <ion-input type="text" formControlName="marca_cemento2" placeholder="0"></ion-input>
+        </ion-card>
+        <ion-card>
+          <p class="subtitle">Precio De Venta</p>
+          <ion-input type="text" formControlName="costo_cemento2" placeholder="0"></ion-input>
+        </ion-card>
+        <ion-card>
+            <p class="subtitle">Marca Cemento</p>
+            <ion-input type="text" formControlName="marca_cemento3" placeholder="0"></ion-input>
+        </ion-card>
+        <ion-card>
+          <p class="subtitle">Precio De Venta</p>
+          <ion-input type="text" formControlName="costo_cemento3" placeholder="0"></ion-input>
+        </ion-card>
+        <ion-card>
+          <p class="subtitle">Promedio Venta Mensual</p>
+          <ion-input type="text" formControlName="promedio_venta_mensual" placeholder="0"></ion-input>
+        </ion-card>
+        <ion-card>
+          <p class="subtitle">Proveedor De Cemento</p>
+          <ion-input type="text" formControlName="proveedor_cemento" placeholder="0"></ion-input>
+        </ion-card>
+        <ion-card>
+          <p class="subtitle">¿Cada Cuantos Días Compra Cemento?</p>
+          <ion-input type="text" formControlName="dias_compra_cemento" placeholder="0"></ion-input>
+        </ion-card>
+        <ion-card>
+          <p class="subtitle">Mejor Proveedor De Materiaes</p>
+          <ion-input type="text" formControlName="mejor_proveedor_materiales" placeholder="0"></ion-input>
+        </ion-card>
+        <ion-card>
+          <p class="subtitle">¿Recibe Capacitación Por Parte De Los Proveedores?</p>
+          <ion-input type="text" formControlName="recibe_capacitacion_proveedores" placeholder="0"></ion-input>
+        </ion-card>
+        <ion-card>
+          <p class="subtitle">¿Qué Tipo De Capacitación Desearía Recibir?</p>
+          <ion-input type="text" formControlName="tipo_capacitacion_desea_proveedores" placeholder="0"></ion-input>
+        </ion-card>
+        <ion-card>
+          <p class="subtitle">¿Recibe Apoyo Publicitario De Los Proveedores?</p>
+          <ion-input type="text" formControlName="recibe_apoyo_publicitario_proveedores" placeholder="0"></ion-input>
+        </ion-card>
+        <ion-card>
+          <p class="subtitle">¿Qué Tipo De Apoyo Publicitario Desearía Recibir?</p>
+          <ion-input type="text" formControlName="tipo_publicidad_desea_proveedores" placeholder="0"></ion-input>
+        </ion-card>
+        <ion-card>
+          <p class="subtitle">¿Con Que Agencia Bancaria Trabaja?</p>
+          <ion-input type="text" formControlName="agencia_bancaria" placeholder="0"></ion-input>
+        </ion-card>
+    </ion-card>
+    <button ion-button (click)="sendForm(form)"type="submit" [disabled]="!form.valid">Siguiente</button>
+  </form>
+</ion-content>

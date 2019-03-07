@@ -1,0 +1,18 @@
+page-showclient {
+    .client-title{
+        text-align: center;
+        color: color($colors, primary);
+    }
+    
+    .values-item{
+        text-align: center;
+    }
+    
+    #map_canvas{
+        height: 100%;
+    }
+
+    p.subtitle{
+        color: color($colors, secondary);
+    }   
+}

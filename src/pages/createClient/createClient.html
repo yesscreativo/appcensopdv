@@ -1,0 +1,72 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Creacion</ion-title>
+  </ion-navbar>
+</ion-header>
+  
+<ion-content padding>
+  <form [formGroup]="todo" (ngSubmit)="logForm(form)">
+    <ion-card>
+      <p class="subtitle">Razon Social<p>
+      <ion-input type="text" formControlName="razon" placeholder="Razon social"></ion-input>
+    </ion-card>
+    <ion-card>
+        <p class="subtitle">Rut<p>
+        <ion-input type="text" formControlName="rut" placeholder="Rut"></ion-input>
+    </ion-card>
+    <ion-card>
+      <p class="subtitle">Nit</p>
+      <ion-input type="text" formControlName="nit" placeholder="Nit"></ion-input>
+    </ion-card>
+    <ion-card>
+        <p class="subtitle">Representante Legal<p>
+        <ion-input type="text" formControlName="rep_legal" placeholder="Representante Legal"></ion-input>
+    </ion-card>
+    <ion-card>
+        <p class="subtitle">Ciudad<p>
+        <ion-input type="text" formControlName="ciudad" placeholder="Ciudad"></ion-input>
+      </ion-card>
+    <ion-card>
+      <p class="subtitle">Direccion Principal</p>
+      <ion-input type="text" formControlName="direccion" placeholder="Direccion"></ion-input>
+    </ion-card>
+    <ion-card>
+      <p class="subtitle">Barrio<p>
+      <ion-input type="text" formControlName="barrio" placeholder="Barrio"></ion-input>
+    </ion-card>
+    <ion-card>
+      <p class="subtitle">Telefono</p>
+      <ion-input type="text" formControlName="telefono" placeholder="Telefono"></ion-input>
+    </ion-card>
+    <ion-card>
+      <p class="subtitle">Correo</p>
+      <ion-input type="text" formControlName="correo" placeholder="Correo"></ion-input>
+    </ion-card>
+    <ion-card>
+      <p class="subtitle">Canal De Ventas</p>
+      <ion-item>
+        <ion-label></ion-label>
+        <ion-select formControlName="can_ven">
+          <ion-option value="1">1</ion-option>
+          <ion-option value="2">2</ion-option>
+          <ion-option value="3">3</ion-option>
+        </ion-select>
+    </ion-item>
+    </ion-card>
+    <ion-card>
+      <p class="subtitle">Subcanal De Ventas</p>
+      <ion-item>
+        <ion-label></ion-label>
+        <ion-select formControlName="sub_can_ven">
+          <ion-option value="1">1</ion-option>
+          <ion-option value="2">2</ion-option>
+          <ion-option value="3">3</ion-option>
+        </ion-select>
+      </ion-item>
+    </ion-card>
+    <button ion-button color="secondary" type="submit" [disabled]="!todo.valid">Guardar</button>
+  </form>
+</ion-content>

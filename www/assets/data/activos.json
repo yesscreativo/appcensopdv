@@ -1,0 +1,23 @@
+[
+    {
+        "tipo":1,
+        "placa":"ABC123",
+        "nombre":"Dominic Toreto",
+        "id":"2112332",
+        "logo":"ios-car"
+    },
+    {
+        "tipo":2,
+        "placa":"ZYX987",
+        "nombre":"Ozoro Tsubasa",
+        "id":"80989",
+        "logo":"md-bicycle"
+    },
+    {
+        "tipo":1,
+        "placa":"ABC123",
+        "nombre":"Steve Jobs",
+        "id":"3213213",
+        "logo":"ios-car"
+    }
+]

@@ -1,0 +1,213 @@
+[
+    {
+        "codigo":1,
+        "cliente":"EDW CORP",
+        "contacto":"Rocky Balboa",
+        "direccion":"Calle 45 # 30",
+        "telefono":"1312321",
+        "correo":"dadasd@asdas.com",
+        "pro_pres":"2",
+        "nit":"103922912",
+        "lat":"4.6322135",
+        "lng":"-74.022753",
+        "dis_liquidos": "no",
+        "tamanio_ferreteria": "3161",
+        "tiene_bodega": "no",
+        "checkStaff":[
+            {
+                "codigo":11,
+                "nombre":"Pedro Garcia",
+                "id":"2112332",
+                "checkin":"10:30AM",
+                "checkout":"10:43AM",
+                "actividades":"Revisión Materiales",
+                "lat":"",
+                "lng":"",
+                "sede":""
+            },
+            {
+                "codigo":12,
+                "nombre":"Pedro Garcia",
+                "id":"2112332",
+                "checkin":"23:30AM",
+                "checkout":"00:43AM",
+                "actividades":"Revisión Cosas",
+                "lat":"",
+                "lng":"",
+                "sede":""
+            },
+            {
+                "codigo":13,
+                "nombre":"Jorge Cardenas",
+                "id":"44987162",
+                "checkin":"4:13PM",
+                "checkout":"5:09PM",
+                "actividades":"Operaciones",
+                "lat":"",
+                "lng":"",
+                "sede":""
+            }
+        ],
+        "checkActivo":[
+            {
+                "codigo":14,
+                "nombre":"Dominic Toreto",
+                "id":"2112332",
+                "checkin":"2:31PM",
+                "checkout":"3:04PM",
+                "actividades":"Reparaciónes",
+                "lat":"",
+                "lng":"",
+                "sede":""
+            },
+            {
+                "codigo":15,
+                "nombre":"Ozoro Tsubasa",
+                "id":"80989",
+                "checkin":"9:36AM",
+                "checkout":"10:12AM",
+                "actividades":"Inventario",
+                "lat":"",
+                "lng":"",
+                "sede":""
+            }
+        ]
+    },
+    {
+        "codigo":2,
+        "cliente":"Coca Cola",
+        "contacto":"Bill Gates",
+        "direccion":"Calle 125 # 98 - 32",
+        "telefono":"5322312",
+        "correo":"micro@soft.com",
+        "pro_pres":"1",
+        "nit":"887232912",
+        "lat":"4.694935",
+        "lng":"-74.204753",
+        "dis_liquidos": "no",
+        "tamanio_ferreteria": "3161",
+        "tiene_bodega": "no",
+        "checkStaff":[
+            {
+                "codigo":21,
+                "nombre":"Pedro Garcia",
+                "id":"2112332",
+                "checkin":"2:31PM",
+                "checkout":"3:04PM",
+                "actividades":"Reparaciónes",
+                "lat":"",
+                "lng":"",
+                "sede":""
+            },
+            {
+                "codigo":22,
+                "nombre":"Samuel Perdomo",
+                "id":"44989337162",
+                "checkin":"9:36AM",
+                "checkout":"10:12AM",
+                "actividades":"Inventario",
+                "lat":"",
+                "lng":"",
+                "sede":""
+            }
+        ],
+        "checkActivo":[
+            {
+                "codigo":23,
+                "nombre":"Dominic Toreto",
+                "id":"2112332",
+                "checkin":"2:31PM",
+                "checkout":"3:04PM",
+                "actividades":"Reparaciónes",
+                "lat":"",
+                "lng":"",
+                "sede":""
+            },
+            {
+                "codigo":24,
+                "nombre":"Ozoro Tsubasa",
+                "id":"80989",
+                "checkin":"9:36AM",
+                "checkout":"10:12AM",
+                "actividades":"Inventario",
+                "lat":"",
+                "lng":"",
+                "sede":""
+            }
+        ]
+    },
+    {
+        "codigo":3,
+        "cliente":"EDW CORP",
+        "contacto":"Apolo Crew",
+        "direccion":"Calle 60 # 23",
+        "telefono":"1312321",
+        "correo":"dadasd@asdas.com",
+        "pro_pres":"2",
+        "nit":"103922912",
+        "lat":"4.6324495",
+        "lng":"-74.072313",
+        "dis_liquidos": "no",
+        "tamanio_ferreteria": "3161",
+        "tiene_bodega": "no",
+        "checkStaff":[
+            {
+                "codigo":31,
+                "nombre":"Pedro Garcia",
+                "id":"2112332",
+                "checkin":"1:30AM",
+                "checkout":"2:43AM",
+                "actividades":"Revisión Objetos",
+                "lat":"",
+                "lng":"",
+                "sede":""
+            },
+            {
+                "codigo":32,
+                "nombre":"Jorge Cardenas",
+                "id":"44987162",
+                "checkin":"23:30AM",
+                "checkout":"00:43AM",
+                "actividades":"Revisión Cosas",
+                "lat":"",
+                "lng":"",
+                "sede":""
+            },
+            {
+                "codigo":33,
+                "nombre":"Pedro Garcia",
+                "id":"2112332",
+                "checkin":"4:13PM",
+                "checkout":"5:09PM",
+                "actividades":"Operaciones",
+                "lat":"",
+                "lng":"",
+                "sede":""
+            }
+        ],
+        "checkActivo":[
+            {
+                "codigo":34,
+                "nombre":"Steve Jobs",
+                "id":"3213213",
+                "checkin":"2:31PM",
+                "checkout":"3:04PM",
+                "actividades":"Reparaciónes",
+                "lat":"",
+                "lng":"",
+                "sede":""
+            },
+            {
+                "codigo":35,
+                "nombre":"Dominic Toreto",
+                "id":"2112332",
+                "checkin":"9:36AM",
+                "checkout":"10:12AM",
+                "actividades":"Inventario",
+                "lat":"",
+                "lng":"",
+                "sede":""
+            }
+        ]
+    }
+]

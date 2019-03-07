@@ -1,0 +1,35 @@
+<!--
+  Generated template for the ListclientsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    <ion-title>Clientes</ion-title>
+  </ion-navbar>
+  <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item *ngFor="let client of clients">
+        <ion-avatar item-start>
+            <img src="{{client.foto}}">
+        </ion-avatar>
+        <ion-label class="label-client">
+            <h2 class="name_h2">{{client.razon}}</h2>
+            <p>{{client.nit}}</p>
+        </ion-label>
+        <button ion-button color="primary" item-end  (click)="showClient(client)">
+          <ion-icon name="md-search"></ion-icon>
+        </button>
+        <button ion-button color="primary" item-end  (click)="editClient(client)">
+            <ion-icon name="md-create"></ion-icon>
+        </button>
+    </ion-item>
+  </ion-list>
+</ion-content>
