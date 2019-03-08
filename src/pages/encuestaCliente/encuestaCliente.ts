@@ -3,7 +3,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Validators, FormBuilder, FormGroup , FormArray} from '@angular/forms';
 import { LoadingController } from 'ionic-angular';
 import { AlertController } from 'ionic-angular';
-import { CreateSalePointView3Page } from '../createSalePointView3/createSalePointView3';
+import { HomePage } from '../home/home';
 
 /**
  * Generated class for the Createsalepointview2Page page.
@@ -73,7 +73,7 @@ export class EncuestaClientePage {
     console.log(form)
     let loader = this.getLoading('Cargando...',3000);
     loader.present();
-    this.navCtrl.push(CreateSalePointView3Page,{formView1:this.formView1, formView2:this.form});
+    this.navCtrl.push(HomePage);
     loader.dismiss();
   }
 
