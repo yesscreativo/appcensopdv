@@ -1,6 +1,6 @@
 webpackJsonp([14],{
 
-/***/ 109:
+/***/ 108:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ webpackJsonp([14],{
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_provider_clients_provider_clients__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__checkSalePointActivo_checkSalePointActivo__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__checkSalePointActivo_checkSalePointActivo__ = __webpack_require__(109);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -64,7 +64,7 @@ var CheckActivoPage = (function () {
 
 /***/ }),
 
-/***/ 110:
+/***/ 109:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -73,7 +73,7 @@ var CheckActivoPage = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_provider_sale_points_provider_sale_points__ = __webpack_require__(44);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_persistence_persistence__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_geolocation__ = __webpack_require__(87);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_geolocation__ = __webpack_require__(86);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_google_maps__ = __webpack_require__(31);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -257,7 +257,7 @@ var CheckSalePointActivoPage = (function () {
 
 /***/ }),
 
-/***/ 111:
+/***/ 110:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -266,7 +266,7 @@ var CheckSalePointActivoPage = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_provider_sale_points_provider_sale_points__ = __webpack_require__(44);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_persistence_persistence__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_geolocation__ = __webpack_require__(87);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_geolocation__ = __webpack_require__(86);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_google_maps__ = __webpack_require__(31);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -458,7 +458,7 @@ var CheckSalePointStaffPage = (function () {
 
 /***/ }),
 
-/***/ 112:
+/***/ 111:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -466,7 +466,7 @@ var CheckSalePointStaffPage = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_provider_clients_provider_clients__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__checkSalePointStaff_checkSalePointStaff__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__checkSalePointStaff_checkSalePointStaff__ = __webpack_require__(110);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -523,7 +523,7 @@ var CheckStaffPage = (function () {
 
 /***/ }),
 
-/***/ 113:
+/***/ 112:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -531,7 +531,7 @@ var CheckStaffPage = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__encuestaCliente_encuestaCliente__ = __webpack_require__(219);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__encuestaCliente_encuestaCliente__ = __webpack_require__(113);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_persistence_persistence__ = __webpack_require__(26);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -620,13 +620,129 @@ var CreateClientPage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-createClient',template:/*ion-inline-start:"/Users/juanpablocamargo/Desktop/Proyectos/appcensopdvHeroku/src/pages/createClient/createClient.html"*/`<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Creacion</ion-title>\n  </ion-navbar>\n</ion-header>\n  \n<ion-content padding>\n  <form [formGroup]="todo" (ngSubmit)="logForm(form)">\n    <ion-card>\n      <p class="subtitle">Razon Social<p>\n      <ion-input type="text" formControlName="razon" placeholder="Razon social"></ion-input>\n    </ion-card>\n    <ion-card>\n        <p class="subtitle">Rut<p>\n        <ion-input type="text" formControlName="rut" placeholder="Rut"></ion-input>\n    </ion-card>\n    <ion-card>\n      <p class="subtitle">Nit</p>\n      <ion-input type="text" formControlName="nit" placeholder="Nit"></ion-input>\n    </ion-card>\n    <ion-card>\n        <p class="subtitle">Representante Legal<p>\n        <ion-input type="text" formControlName="rep_legal" placeholder="Representante Legal"></ion-input>\n    </ion-card>\n    <ion-card>\n        <p class="subtitle">Ciudad<p>\n        <ion-input type="text" formControlName="ciudad" placeholder="Ciudad"></ion-input>\n      </ion-card>\n    <ion-card>\n      <p class="subtitle">Direccion Principal</p>\n      <ion-input type="text" formControlName="direccion" placeholder="Direccion"></ion-input>\n    </ion-card>\n    <ion-card>\n      <p class="subtitle">Barrio<p>\n      <ion-input type="text" formControlName="barrio" placeholder="Barrio"></ion-input>\n    </ion-card>\n    <ion-card>\n      <p class="subtitle">Telefono</p>\n      <ion-input type="text" formControlName="telefono" placeholder="Telefono"></ion-input>\n    </ion-card>\n    <ion-card>\n      <p class="subtitle">Correo</p>\n      <ion-input type="text" formControlName="correo" placeholder="Correo"></ion-input>\n    </ion-card>\n    <ion-card>\n      <p class="subtitle">Canal De Ventas</p>\n      <ion-item>\n        <ion-label></ion-label>\n        <ion-select formControlName="can_ven">\n          <ion-option value="1">1</ion-option>\n          <ion-option value="2">2</ion-option>\n          <ion-option value="3">3</ion-option>\n        </ion-select>\n    </ion-item>\n    </ion-card>\n    <ion-card>\n      <p class="subtitle">Subcanal De Ventas</p>\n      <ion-item>\n        <ion-label></ion-label>\n        <ion-select formControlName="sub_can_ven">\n          <ion-option value="1">1</ion-option>\n          <ion-option value="2">2</ion-option>\n          <ion-option value="3">3</ion-option>\n        </ion-select>\n      </ion-item>\n    </ion-card>\n    <button ion-button color="secondary" type="submit" [disabled]="!todo.valid">Guardar</button>\n  </form>\n</ion-content>`/*ion-inline-end:"/Users/juanpablocamargo/Desktop/Proyectos/appcensopdvHeroku/src/pages/createClient/createClient.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_4__providers_persistence_persistence__["a" /* PersistenceProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__providers_persistence_persistence__["a" /* PersistenceProvider */]) === "function" && _g || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_persistence_persistence__["a" /* PersistenceProvider */]])
     ], CreateClientPage);
     return CreateClientPage;
-    var _a, _b, _c, _d, _e, _f, _g;
 }());
 
 //# sourceMappingURL=createClient.js.map
+
+/***/ }),
+
+/***/ 113:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EncuestaClientePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_home__ = __webpack_require__(52);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+/**
+ * Generated class for the Createsalepointview2Page page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var EncuestaClientePage = (function () {
+    function EncuestaClientePage(navCtrl, navParams, formBuilder, loadingCtrl, alertCtrl) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.formBuilder = formBuilder;
+        this.loadingCtrl = loadingCtrl;
+        this.alertCtrl = alertCtrl;
+        this.form = this.formBuilder.group({
+            cantidad_vendedores_mostrador: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required],
+            cantidad_vendedores_externos: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required],
+            tiene_ferreteria: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required],
+            tamanio_ferreteria: [''],
+            tiene_bodega: [''],
+            tamanio_bodega: [''],
+            distribuye_cemento: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required],
+            tiene_camiones: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required],
+            cantidad_camiones: [''],
+            capacidad_carga: [''],
+            marca_cemento1: [''],
+            marca_cemento2: [''],
+            marca_cemento3: [''],
+            costo_cemento1: [''],
+            costo_cemento2: [''],
+            costo_cemento3: [''],
+            promedio_venta_mensual: [''],
+            proveedor_cemento: [''],
+            dias_compra_cemento: [''],
+            mejor_proveedor_materiales: [''],
+            recibe_capacitacion_proveedores: [''],
+            tipo_capacitacion_desea_proveedores: [''],
+            recibe_apoyo_publicitario_proveedores: [''],
+            tipo_publicidad_desea_proveedores: [''],
+            agencia_bancaria: [''],
+        });
+        //Get data form View1
+        this.formView1 = this.navParams.get('formView1');
+        console.log(this.formView1);
+        //
+        this.flags = {
+            tiene_ferreteria: "si",
+            tiene_bodega: "si",
+            tiene_camiones: "si",
+        };
+    }
+    EncuestaClientePage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad Createsalepointview2Page');
+    };
+    EncuestaClientePage.prototype.sendForm = function (form) {
+        console.log(form);
+        var loader = this.getLoading('Cargando...', 3000);
+        loader.present();
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__home_home__["a" /* HomePage */]);
+        loader.dismiss();
+    };
+    EncuestaClientePage.prototype.getLoading = function (msj, p_duration) {
+        var loader = this.loadingCtrl.create({
+            content: msj,
+            duration: p_duration
+        });
+        return loader;
+    };
+    EncuestaClientePage.prototype.getAlert = function (msj, stl, but) {
+        var alert = this.alertCtrl.create({
+            title: msj,
+            subTitle: stl,
+            buttons: [but]
+        });
+        return alert;
+    };
+    EncuestaClientePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-encuestaCliente',template:/*ion-inline-start:"/Users/juanpablocamargo/Desktop/Proyectos/appcensopdvHeroku/src/pages/encuestaCliente/encuestaCliente.html"*/`<!--\n  Generated template for the Createsalepointview2Page page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Creación - Punto Cliente</ion-title>\n  </ion-navbar>\n  <ion-toolbar>\n      <ion-title>Paso 2<br>Encuesta Del PDV</ion-title>\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n  <form [formGroup]="form">\n    <ion-card>\n      <p class="title">Datos Ferreteria<p>\n        <ion-card>\n          <p class="subtitle">Cantidad Vendedores De Mostrador</p>\n          <ion-input name="cantidad_vendedores_mostrador" id="cantidad_vendedores_mostrador" type="number" formControlName="cantidad_vendedores_mostrador" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card>\n          <p class="subtitle">Cantidad Vendedores Externos</p>\n          <ion-input type="number" formControlName="cantidad_vendedores_externos" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card>\n          <p class="subtitle">¿Tiene Ferreteria?</p>\n          <ion-list radio-group formControlName="tiene_ferreteria" [(ngModel)]="flags.tiene_ferreteria">\n            <ion-item>\n              <ion-label>Si</ion-label>\n              <ion-radio value="si" checked></ion-radio>\n            </ion-item>\n            <ion-item>\n              <ion-label>No</ion-label>\n              <ion-radio value="no"></ion-radio>\n            </ion-item>\n          </ion-list>\n        </ion-card>\n        <!--Solo si tiene ferreteria-->\n        <ion-card *ngIf="flags.tiene_ferreteria == \'si\'" >\n          <p class="subtitle">Tamaño De La Ferreteria</p>\n          <ion-input type="number" formControlName="tamanio_ferreteria" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card *ngIf="flags.tiene_ferreteria == \'si\'">\n          <p class="subtitle">¿Tiene Bodega?</p>\n          <ion-list radio-group formControlName="tiene_bodega" [(ngModel)]="flags.tiene_bodega">\n            <ion-item>\n              <ion-label>Si</ion-label>\n              <ion-radio value="si" checked></ion-radio>\n            </ion-item>\n            <ion-item>\n              <ion-label>No</ion-label>\n              <ion-radio value="no"></ion-radio>\n            </ion-item>\n          </ion-list>\n        </ion-card>\n        <!--Solo si tiene bodega-->\n        <ion-card *ngIf="flags.tiene_bodega == \'si\'">\n          <p class="subtitle">Tamaño Bodega En Metros Cuadrados</p>\n          <ion-input type="number" formControlName="tamanio_bodega" placeholder="0"></ion-input>\n        </ion-card>\n        <!--bodega-->\n        <!--ferreteria-->\n        <ion-card>\n          <p class="subtitle">¿Distribuye Cemento?</p>\n          <ion-list radio-group formControlName="distribuye_cemento" >\n            <ion-item>\n              <ion-label>Si</ion-label>\n              <ion-radio value="si" checked></ion-radio>\n            </ion-item>\n            <ion-item>\n              <ion-label>No</ion-label>\n              <ion-radio value="no"></ion-radio>\n            </ion-item>\n          </ion-list>\n        </ion-card>\n        <ion-card>\n          <p class="subtitle">¿Tiene Camiones Para Distribuir?</p>\n          <ion-list radio-group formControlName="tiene_camiones" [(ngModel)]="flags.tiene_camiones" >\n            <ion-item>\n              <ion-label>Si</ion-label>\n              <ion-radio value="si" checked></ion-radio>\n            </ion-item>\n            <ion-item>\n              <ion-label>No</ion-label>\n              <ion-radio value="no"></ion-radio>\n            </ion-item>\n          </ion-list>\n        </ion-card>\n        <!--Solo si tiene camiones-->\n        <ion-card *ngIf="flags.tiene_camiones == \'si\'">\n            <p class="subtitle">Cantidad De Camiones</p>\n            <ion-input type="number" formControlName="cantidad_camiones" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card *ngIf="flags.tiene_camiones == \'si\'">\n            <p class="subtitle">Capacidad De Carga</p>\n            <ion-input type="text" formControlName="capacidad_carga" placeholder="0"></ion-input>\n        </ion-card>\n        <!--camiones-->\n        <ion-card>\n            <p class="subtitle">Marca Cemento</p>\n            <ion-input type="text" formControlName="marca_cemento1" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card>\n          <p class="subtitle">Precio De Venta</p>\n          <ion-input type="text" formControlName="costo_cemento1" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card>\n            <p class="subtitle">Marca Cemento</p>\n            <ion-input type="text" formControlName="marca_cemento2" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card>\n          <p class="subtitle">Precio De Venta</p>\n          <ion-input type="text" formControlName="costo_cemento2" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card>\n            <p class="subtitle">Marca Cemento</p>\n            <ion-input type="text" formControlName="marca_cemento3" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card>\n          <p class="subtitle">Precio De Venta</p>\n          <ion-input type="text" formControlName="costo_cemento3" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card>\n          <p class="subtitle">Promedio Venta Mensual</p>\n          <ion-input type="text" formControlName="promedio_venta_mensual" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card>\n          <p class="subtitle">Proveedor De Cemento</p>\n          <ion-input type="text" formControlName="proveedor_cemento" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card>\n          <p class="subtitle">¿Cada Cuantos Días Compra Cemento?</p>\n          <ion-input type="text" formControlName="dias_compra_cemento" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card>\n          <p class="subtitle">Mejor Proveedor De Materiaes</p>\n          <ion-input type="text" formControlName="mejor_proveedor_materiales" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card>\n          <p class="subtitle">¿Recibe Capacitación Por Parte De Los Proveedores?</p>\n          <ion-input type="text" formControlName="recibe_capacitacion_proveedores" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card>\n          <p class="subtitle">¿Qué Tipo De Capacitación Desearía Recibir?</p>\n          <ion-input type="text" formControlName="tipo_capacitacion_desea_proveedores" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card>\n          <p class="subtitle">¿Recibe Apoyo Publicitario De Los Proveedores?</p>\n          <ion-input type="text" formControlName="recibe_apoyo_publicitario_proveedores" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card>\n          <p class="subtitle">¿Qué Tipo De Apoyo Publicitario Desearía Recibir?</p>\n          <ion-input type="text" formControlName="tipo_publicidad_desea_proveedores" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card>\n          <p class="subtitle">¿Con Que Agencia Bancaria Trabaja?</p>\n          <ion-input type="text" formControlName="agencia_bancaria" placeholder="0"></ion-input>\n        </ion-card>\n    </ion-card>\n    <button ion-button (click)="sendForm(form)"type="submit" [disabled]="!form.valid">Siguiente</button>\n  </form>\n</ion-content>\n`/*ion-inline-end:"/Users/juanpablocamargo/Desktop/Proyectos/appcensopdvHeroku/src/pages/encuestaCliente/encuestaCliente.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
+    ], EncuestaClientePage);
+    return EncuestaClientePage;
+}());
+
+//# sourceMappingURL=encuestaCliente.js.map
 
 /***/ }),
 
@@ -638,7 +754,7 @@ var CreateClientPage = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__createSalePointView3_createSalePointView3__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__createSalePointView3_createSalePointView3__ = __webpack_require__(115);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_persistence_persistence__ = __webpack_require__(26);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_provider_clients_provider_clients__ = __webpack_require__(30);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -735,6 +851,149 @@ var CreateSalePointView_1Page = (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CreateSalePointView3Page; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_google_maps__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_home__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_persistence_persistence__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_forms__ = __webpack_require__(12);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+/**
+ * Generated class for the CreateSalePointView3Page page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var CreateSalePointView3Page = (function () {
+    function CreateSalePointView3Page(navCtrl, navParams, loadingCtrl, alertCtrl, persistence, formBuilder) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.loadingCtrl = loadingCtrl;
+        this.alertCtrl = alertCtrl;
+        this.persistence = persistence;
+        this.formBuilder = formBuilder;
+        this.markers = false;
+        this.formView1 = this.navParams.get('formView1');
+    }
+    CreateSalePointView3Page.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad CreateSalePointView3Page');
+        this.initMap();
+    };
+    CreateSalePointView3Page.prototype.initMap = function () {
+        var _this = this;
+        var mapOptions = {
+            camera: {
+                target: {
+                    lat: 4.6324935,
+                    lng: -74.074753
+                },
+                zoom: 15,
+                tilt: 30
+            }
+        };
+        this.map = __WEBPACK_IMPORTED_MODULE_2__ionic_native_google_maps__["a" /* GoogleMaps */].create('map', mapOptions);
+        this.map.on(__WEBPACK_IMPORTED_MODULE_2__ionic_native_google_maps__["b" /* GoogleMapsEvent */].MAP_CLICK)
+            .subscribe(function (data) {
+            console.log(data);
+            if (_this.markers == false) {
+                _this.marker = _this.map.addMarkerSync({
+                    title: 'holaa',
+                    icon: 'blue',
+                    animation: 'DROP',
+                    position: {
+                        lat: data[0].lat,
+                        lng: data[0].lng
+                    }
+                });
+                _this.localization = data;
+                _this.markers = true;
+            }
+        });
+    };
+    CreateSalePointView3Page.prototype.getAlert = function (msj, stl, but) {
+        var alert = this.alertCtrl.create({
+            title: msj,
+            subTitle: stl,
+            buttons: [but]
+        });
+        return alert;
+    };
+    CreateSalePointView3Page.prototype.getLoading = function (msj, p_duration) {
+        var loader = this.loadingCtrl.create({
+            content: msj,
+            duration: p_duration
+        });
+        return loader;
+    };
+    CreateSalePointView3Page.prototype.saveSalePoint = function () {
+        var _this = this;
+        console.log(this.formView1.value);
+        console.log(this.localization);
+        if (this.markers) {
+            var x = Math.random() * (100000 - 30) + 30;
+            var value1 = this.formView1.value;
+            var value3 = this.localization[0];
+            var json_1 = { 'cliente': value1.cliente, 'codigo': x, 'nit': value1.cliente, 'contacto': value1.contacto, 'correo': value1.correo,
+                'direccion': value1.direccion, 'pro_pres': value1.productos_servicios,
+                'telefono': value1.telefono,
+                'lat': value3.lat, 'lng': value3.lng, 'checkStaff': [], 'checkActivo': [] };
+            var loading_1 = this.getLoading("Cargando", 300);
+            loading_1.present();
+            this.persistence.readFileAsText("salePoints.json")
+                .then(function (data) {
+                console.log(data);
+                var clients = JSON.parse(data);
+                clients.push(json_1);
+                _this.persistence.updateJSON(clients, "salePoints.json");
+                console.log("Debug # 001");
+                loading_1.dismiss();
+                var alert = _this.getAlert("Creacion Punto de venta", "Exito", "Aceptar");
+                alert.present();
+            }, function (err) {
+                console.log(err);
+                loading_1.dismiss();
+                var alert = _this.getAlert("Creacion Punto de venta", "Falló", "Aceptar");
+                alert.present();
+            });
+            this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__home_home__["a" /* HomePage */]);
+        }
+    };
+    CreateSalePointView3Page = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-createSalePointView3',template:/*ion-inline-start:"/Users/juanpablocamargo/Desktop/Proyectos/appcensopdvHeroku/src/pages/createSalePointView3/createSalePointView3.html"*/`<!--\n  Generated template for the CreateSalePointView3Page page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>createSalePointView3</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <div #map id="map" style="height:100%"></div>\n  <button ion-button color="secondary" (click)="saveSalePoint()">Enviar</button>\n</ion-content>\n`/*ion-inline-end:"/Users/juanpablocamargo/Desktop/Proyectos/appcensopdvHeroku/src/pages/createSalePointView3/createSalePointView3.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_persistence_persistence__["a" /* PersistenceProvider */], __WEBPACK_IMPORTED_MODULE_5__angular_forms__["a" /* FormBuilder */]])
+    ], CreateSalePointView3Page);
+    return CreateSalePointView3Page;
+}());
+
+//# sourceMappingURL=createSalePointView3.js.map
+
+/***/ }),
+
+/***/ 116:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EditClientPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
@@ -794,7 +1053,7 @@ var EditClientPage = (function () {
 
 /***/ }),
 
-/***/ 116:
+/***/ 117:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -865,15 +1124,15 @@ var GeoreferentiationSalePointPage = (function () {
 
 /***/ }),
 
-/***/ 117:
+/***/ 118:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListclientsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__showclient_showclient__ = __webpack_require__(118);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__editClient_editClient__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__showclient_showclient__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__editClient_editClient__ = __webpack_require__(116);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_persistence_persistence__ = __webpack_require__(26);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_provider_clients_provider_clients__ = __webpack_require__(30);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -964,7 +1223,7 @@ var ListclientsPage = (function () {
 
 /***/ }),
 
-/***/ 118:
+/***/ 119:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -972,10 +1231,10 @@ var ListclientsPage = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_provider_sale_points_provider_sale_points__ = __webpack_require__(44);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__georeferentiationSalePoint_georeferentiationSalePoint__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__georeferentiationSalePoint_georeferentiationSalePoint__ = __webpack_require__(117);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_persistence_persistence__ = __webpack_require__(26);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_provider_clients_provider_clients__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__trackingMap_trackingMap__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__trackingMap_trackingMap__ = __webpack_require__(120);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1076,7 +1335,7 @@ var ShowclientPage = (function () {
 
 /***/ }),
 
-/***/ 119:
+/***/ 120:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1084,7 +1343,7 @@ var ShowclientPage = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_google_maps__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__showCheck_showCheck__ = __webpack_require__(120);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__showCheck_showCheck__ = __webpack_require__(121);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1196,7 +1455,7 @@ var TrackingMapPage = (function () {
 
 /***/ }),
 
-/***/ 120:
+/***/ 121:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1243,7 +1502,7 @@ var ShowCheckPage = (function () {
 
 /***/ }),
 
-/***/ 133:
+/***/ 134:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -1256,11 +1515,11 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 133;
+webpackEmptyAsyncContext.id = 134;
 
 /***/ }),
 
-/***/ 175:
+/***/ 176:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -1332,121 +1591,8 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 175;
+webpackAsyncContext.id = 176;
 module.exports = webpackAsyncContext;
-
-/***/ }),
-
-/***/ 219:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EncuestaClientePage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__createSalePointView3_createSalePointView3__ = __webpack_require__(57);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-/**
- * Generated class for the Createsalepointview2Page page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var EncuestaClientePage = (function () {
-    function EncuestaClientePage(navCtrl, navParams, formBuilder, loadingCtrl, alertCtrl) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.formBuilder = formBuilder;
-        this.loadingCtrl = loadingCtrl;
-        this.alertCtrl = alertCtrl;
-        this.form = this.formBuilder.group({
-            cantidad_vendedores_mostrador: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required],
-            cantidad_vendedores_externos: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required],
-            tiene_ferreteria: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required],
-            tamanio_ferreteria: [''],
-            tiene_bodega: [''],
-            tamanio_bodega: [''],
-            distribuye_cemento: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required],
-            tiene_camiones: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required],
-            cantidad_camiones: [''],
-            capacidad_carga: [''],
-            marca_cemento1: [''],
-            marca_cemento2: [''],
-            marca_cemento3: [''],
-            costo_cemento1: [''],
-            costo_cemento2: [''],
-            costo_cemento3: [''],
-            promedio_venta_mensual: [''],
-            proveedor_cemento: [''],
-            dias_compra_cemento: [''],
-            mejor_proveedor_materiales: [''],
-            recibe_capacitacion_proveedores: [''],
-            tipo_capacitacion_desea_proveedores: [''],
-            recibe_apoyo_publicitario_proveedores: [''],
-            tipo_publicidad_desea_proveedores: [''],
-            agencia_bancaria: [''],
-        });
-        //Get data form View1
-        this.formView1 = this.navParams.get('formView1');
-        console.log(this.formView1);
-        //
-        this.flags = {
-            tiene_ferreteria: "si",
-            tiene_bodega: "si",
-            tiene_camiones: "si",
-        };
-    }
-    EncuestaClientePage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad Createsalepointview2Page');
-    };
-    EncuestaClientePage.prototype.sendForm = function (form) {
-        console.log(form);
-        var loader = this.getLoading('Cargando...', 3000);
-        loader.present();
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__createSalePointView3_createSalePointView3__["a" /* CreateSalePointView3Page */], { formView1: this.formView1, formView2: this.form });
-        loader.dismiss();
-    };
-    EncuestaClientePage.prototype.getLoading = function (msj, p_duration) {
-        var loader = this.loadingCtrl.create({
-            content: msj,
-            duration: p_duration
-        });
-        return loader;
-    };
-    EncuestaClientePage.prototype.getAlert = function (msj, stl, but) {
-        var alert = this.alertCtrl.create({
-            title: msj,
-            subTitle: stl,
-            buttons: [but]
-        });
-        return alert;
-    };
-    EncuestaClientePage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-encuestaCliente',template:/*ion-inline-start:"/Users/juanpablocamargo/Desktop/Proyectos/appcensopdvHeroku/src/pages/encuestaCliente/encuestaCliente.html"*/`<!--\n  Generated template for the Createsalepointview2Page page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Creación - Punto Cliente</ion-title>\n  </ion-navbar>\n  <ion-toolbar>\n      <ion-title>Paso 2<br>Encuesta Del PDV</ion-title>\n  </ion-toolbar>\n</ion-header>\n\n\n<ion-content padding>\n  <form [formGroup]="form">\n    <ion-card>\n      <p class="title">Datos Ferreteria<p>\n        <ion-card>\n          <p class="subtitle">Cantidad Vendedores De Mostrador</p>\n          <ion-input name="cantidad_vendedores_mostrador" id="cantidad_vendedores_mostrador" type="number" formControlName="cantidad_vendedores_mostrador" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card>\n          <p class="subtitle">Cantidad Vendedores Externos</p>\n          <ion-input type="number" formControlName="cantidad_vendedores_externos" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card>\n          <p class="subtitle">¿Tiene Ferreteria?</p>\n          <ion-list radio-group formControlName="tiene_ferreteria" [(ngModel)]="flags.tiene_ferreteria">\n            <ion-item>\n              <ion-label>Si</ion-label>\n              <ion-radio value="si" checked></ion-radio>\n            </ion-item>\n            <ion-item>\n              <ion-label>No</ion-label>\n              <ion-radio value="no"></ion-radio>\n            </ion-item>\n          </ion-list>\n        </ion-card>\n        <!--Solo si tiene ferreteria-->\n        <ion-card *ngIf="flags.tiene_ferreteria == \'si\'" >\n          <p class="subtitle">Tamaño De La Ferreteria</p>\n          <ion-input type="number" formControlName="tamanio_ferreteria" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card *ngIf="flags.tiene_ferreteria == \'si\'">\n          <p class="subtitle">¿Tiene Bodega?</p>\n          <ion-list radio-group formControlName="tiene_bodega" [(ngModel)]="flags.tiene_bodega">\n            <ion-item>\n              <ion-label>Si</ion-label>\n              <ion-radio value="si" checked></ion-radio>\n            </ion-item>\n            <ion-item>\n              <ion-label>No</ion-label>\n              <ion-radio value="no"></ion-radio>\n            </ion-item>\n          </ion-list>\n        </ion-card>\n        <!--Solo si tiene bodega-->\n        <ion-card *ngIf="flags.tiene_bodega == \'si\'">\n          <p class="subtitle">Tamaño Bodega En Metros Cuadrados</p>\n          <ion-input type="number" formControlName="tamanio_bodega" placeholder="0"></ion-input>\n        </ion-card>\n        <!--bodega-->\n        <!--ferreteria-->\n        <ion-card>\n          <p class="subtitle">¿Distribuye Cemento?</p>\n          <ion-list radio-group formControlName="distribuye_cemento" >\n            <ion-item>\n              <ion-label>Si</ion-label>\n              <ion-radio value="si" checked></ion-radio>\n            </ion-item>\n            <ion-item>\n              <ion-label>No</ion-label>\n              <ion-radio value="no"></ion-radio>\n            </ion-item>\n          </ion-list>\n        </ion-card>\n        <ion-card>\n          <p class="subtitle">¿Tiene Camiones Para Distribuir?</p>\n          <ion-list radio-group formControlName="tiene_camiones" [(ngModel)]="flags.tiene_camiones" >\n            <ion-item>\n              <ion-label>Si</ion-label>\n              <ion-radio value="si" checked></ion-radio>\n            </ion-item>\n            <ion-item>\n              <ion-label>No</ion-label>\n              <ion-radio value="no"></ion-radio>\n            </ion-item>\n          </ion-list>\n        </ion-card>\n        <!--Solo si tiene camiones-->\n        <ion-card *ngIf="flags.tiene_camiones == \'si\'">\n            <p class="subtitle">Cantidad De Camiones</p>\n            <ion-input type="number" formControlName="cantidad_camiones" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card *ngIf="flags.tiene_camiones == \'si\'">\n            <p class="subtitle">Capacidad De Carga</p>\n            <ion-input type="text" formControlName="capacidad_carga" placeholder="0"></ion-input>\n        </ion-card>\n        <!--camiones-->\n        <ion-card>\n            <p class="subtitle">Marca Cemento</p>\n            <ion-input type="text" formControlName="marca_cemento1" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card>\n          <p class="subtitle">Precio De Venta</p>\n          <ion-input type="text" formControlName="costo_cemento1" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card>\n            <p class="subtitle">Marca Cemento</p>\n            <ion-input type="text" formControlName="marca_cemento2" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card>\n          <p class="subtitle">Precio De Venta</p>\n          <ion-input type="text" formControlName="costo_cemento2" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card>\n            <p class="subtitle">Marca Cemento</p>\n            <ion-input type="text" formControlName="marca_cemento3" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card>\n          <p class="subtitle">Precio De Venta</p>\n          <ion-input type="text" formControlName="costo_cemento3" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card>\n          <p class="subtitle">Promedio Venta Mensual</p>\n          <ion-input type="text" formControlName="promedio_venta_mensual" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card>\n          <p class="subtitle">Proveedor De Cemento</p>\n          <ion-input type="text" formControlName="proveedor_cemento" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card>\n          <p class="subtitle">¿Cada Cuantos Días Compra Cemento?</p>\n          <ion-input type="text" formControlName="dias_compra_cemento" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card>\n          <p class="subtitle">Mejor Proveedor De Materiaes</p>\n          <ion-input type="text" formControlName="mejor_proveedor_materiales" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card>\n          <p class="subtitle">¿Recibe Capacitación Por Parte De Los Proveedores?</p>\n          <ion-input type="text" formControlName="recibe_capacitacion_proveedores" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card>\n          <p class="subtitle">¿Qué Tipo De Capacitación Desearía Recibir?</p>\n          <ion-input type="text" formControlName="tipo_capacitacion_desea_proveedores" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card>\n          <p class="subtitle">¿Recibe Apoyo Publicitario De Los Proveedores?</p>\n          <ion-input type="text" formControlName="recibe_apoyo_publicitario_proveedores" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card>\n          <p class="subtitle">¿Qué Tipo De Apoyo Publicitario Desearía Recibir?</p>\n          <ion-input type="text" formControlName="tipo_publicidad_desea_proveedores" placeholder="0"></ion-input>\n        </ion-card>\n        <ion-card>\n          <p class="subtitle">¿Con Que Agencia Bancaria Trabaja?</p>\n          <ion-input type="text" formControlName="agencia_bancaria" placeholder="0"></ion-input>\n        </ion-card>\n    </ion-card>\n    <button ion-button (click)="sendForm(form)"type="submit" [disabled]="!form.valid">Siguiente</button>\n  </form>\n</ion-content>\n`/*ion-inline-end:"/Users/juanpablocamargo/Desktop/Proyectos/appcensopdvHeroku/src/pages/encuestaCliente/encuestaCliente.html"*/,
-        }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]) === "function" && _e || Object])
-    ], EncuestaClientePage);
-    return EncuestaClientePage;
-    var _a, _b, _c, _d, _e;
-}());
-
-//# sourceMappingURL=encuestaCliente.js.map
 
 /***/ }),
 
@@ -1474,29 +1620,29 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(296);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_listclients_listclients__ = __webpack_require__(117);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_showclient_showclient__ = __webpack_require__(118);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_createClient_createClient__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_listclients_listclients__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_showclient_showclient__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_createClient_createClient__ = __webpack_require__(112);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_createSalePointView1_createSalePointView1__ = __webpack_require__(114);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_encuestaCliente_encuestaCliente__ = __webpack_require__(219);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_editClient_editClient__ = __webpack_require__(115);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_georeferentiationSalePoint_georeferentiationSalePoint__ = __webpack_require__(116);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_createSalePointView3_createSalePointView3__ = __webpack_require__(57);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_trackingMap_trackingMap__ = __webpack_require__(119);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_checkActivo_checkActivo__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_checkStaff_checkStaff__ = __webpack_require__(112);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_checkSalePointStaff_checkSalePointStaff__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_checkSalePointActivo_checkSalePointActivo__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_showCheck_showCheck__ = __webpack_require__(120);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__ionic_native_status_bar__ = __webpack_require__(217);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__ionic_native_splash_screen__ = __webpack_require__(218);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_encuestaCliente_encuestaCliente__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_editClient_editClient__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_georeferentiationSalePoint_georeferentiationSalePoint__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_createSalePointView3_createSalePointView3__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_trackingMap_trackingMap__ = __webpack_require__(120);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_checkActivo_checkActivo__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_checkStaff_checkStaff__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_checkSalePointStaff_checkSalePointStaff__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_checkSalePointActivo_checkSalePointActivo__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_showCheck_showCheck__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__ionic_native_status_bar__ = __webpack_require__(218);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__ionic_native_splash_screen__ = __webpack_require__(219);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__providers_provider_clients_provider_clients__ = __webpack_require__(30);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__providers_provider_sale_points_provider_sale_points__ = __webpack_require__(44);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__angular_common_http__ = __webpack_require__(51);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__ionic_native_google_maps__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__ionic_native_file__ = __webpack_require__(85);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__ionic_native_file__ = __webpack_require__(84);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__providers_persistence_persistence__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__ionic_native_geolocation__ = __webpack_require__(87);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__ionic_native_geolocation__ = __webpack_require__(86);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1624,7 +1770,7 @@ var AppModule = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PersistenceProvider; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(51);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_file__ = __webpack_require__(85);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_file__ = __webpack_require__(84);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1688,14 +1834,14 @@ var PersistenceProvider = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(217);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(218);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(218);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(219);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_listclients_listclients__ = __webpack_require__(117);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_createClient_createClient__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_listclients_listclients__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_createClient_createClient__ = __webpack_require__(112);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_createSalePointView1_createSalePointView1__ = __webpack_require__(114);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_checkActivo_checkActivo__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_checkStaff_checkStaff__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_checkActivo_checkActivo__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_checkStaff_checkStaff__ = __webpack_require__(111);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1863,7 +2009,7 @@ var ProviderSalePointsProvider = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_provider_clients_provider_clients__ = __webpack_require__(30);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_provider_sale_points_provider_sale_points__ = __webpack_require__(44);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_file__ = __webpack_require__(85);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_file__ = __webpack_require__(84);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1964,149 +2110,6 @@ var HomePage = (function () {
 }());
 
 //# sourceMappingURL=home.js.map
-
-/***/ }),
-
-/***/ 57:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CreateSalePointView3Page; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_google_maps__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_home__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_persistence_persistence__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_forms__ = __webpack_require__(12);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-
-
-/**
- * Generated class for the CreateSalePointView3Page page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var CreateSalePointView3Page = (function () {
-    function CreateSalePointView3Page(navCtrl, navParams, loadingCtrl, alertCtrl, persistence, formBuilder) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.loadingCtrl = loadingCtrl;
-        this.alertCtrl = alertCtrl;
-        this.persistence = persistence;
-        this.formBuilder = formBuilder;
-        this.markers = false;
-        this.formView1 = this.navParams.get('formView1');
-    }
-    CreateSalePointView3Page.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad CreateSalePointView3Page');
-        this.initMap();
-    };
-    CreateSalePointView3Page.prototype.initMap = function () {
-        var _this = this;
-        var mapOptions = {
-            camera: {
-                target: {
-                    lat: 4.6324935,
-                    lng: -74.074753
-                },
-                zoom: 15,
-                tilt: 30
-            }
-        };
-        this.map = __WEBPACK_IMPORTED_MODULE_2__ionic_native_google_maps__["a" /* GoogleMaps */].create('map', mapOptions);
-        this.map.on(__WEBPACK_IMPORTED_MODULE_2__ionic_native_google_maps__["b" /* GoogleMapsEvent */].MAP_CLICK)
-            .subscribe(function (data) {
-            console.log(data);
-            if (_this.markers == false) {
-                _this.marker = _this.map.addMarkerSync({
-                    title: 'holaa',
-                    icon: 'blue',
-                    animation: 'DROP',
-                    position: {
-                        lat: data[0].lat,
-                        lng: data[0].lng
-                    }
-                });
-                _this.localization = data;
-                _this.markers = true;
-            }
-        });
-    };
-    CreateSalePointView3Page.prototype.getAlert = function (msj, stl, but) {
-        var alert = this.alertCtrl.create({
-            title: msj,
-            subTitle: stl,
-            buttons: [but]
-        });
-        return alert;
-    };
-    CreateSalePointView3Page.prototype.getLoading = function (msj, p_duration) {
-        var loader = this.loadingCtrl.create({
-            content: msj,
-            duration: p_duration
-        });
-        return loader;
-    };
-    CreateSalePointView3Page.prototype.saveSalePoint = function () {
-        var _this = this;
-        console.log(this.formView1.value);
-        console.log(this.localization);
-        if (this.markers) {
-            var x = Math.random() * (100000 - 30) + 30;
-            var value1 = this.formView1.value;
-            var value3 = this.localization[0];
-            var json_1 = { 'cliente': value1.cliente, 'codigo': x, 'nit': value1.cliente, 'contacto': value1.contacto, 'correo': value1.correo,
-                'direccion': value1.direccion, 'pro_pres': value1.productos_servicios,
-                'telefono': value1.telefono,
-                'lat': value3.lat, 'lng': value3.lng, 'checkStaff': [], 'checkActivo': [] };
-            var loading_1 = this.getLoading("Cargando", 300);
-            loading_1.present();
-            this.persistence.readFileAsText("salePoints.json")
-                .then(function (data) {
-                console.log(data);
-                var clients = JSON.parse(data);
-                clients.push(json_1);
-                _this.persistence.updateJSON(clients, "salePoints.json");
-                console.log("Debug # 001");
-                loading_1.dismiss();
-                var alert = _this.getAlert("Creacion Punto de venta", "Exito", "Aceptar");
-                alert.present();
-            }, function (err) {
-                console.log(err);
-                loading_1.dismiss();
-                var alert = _this.getAlert("Creacion Punto de venta", "Falló", "Aceptar");
-                alert.present();
-            });
-            this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__home_home__["a" /* HomePage */]);
-        }
-    };
-    CreateSalePointView3Page = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-createSalePointView3',template:/*ion-inline-start:"/Users/juanpablocamargo/Desktop/Proyectos/appcensopdvHeroku/src/pages/createSalePointView3/createSalePointView3.html"*/`<!--\n  Generated template for the CreateSalePointView3Page page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>createSalePointView3</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <div #map id="map" style="height:100%"></div>\n  <button ion-button color="secondary" (click)="saveSalePoint()">Enviar</button>\n</ion-content>\n`/*ion-inline-end:"/Users/juanpablocamargo/Desktop/Proyectos/appcensopdvHeroku/src/pages/createSalePointView3/createSalePointView3.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */],
-            __WEBPACK_IMPORTED_MODULE_4__providers_persistence_persistence__["a" /* PersistenceProvider */], __WEBPACK_IMPORTED_MODULE_5__angular_forms__["a" /* FormBuilder */]])
-    ], CreateSalePointView3Page);
-    return CreateSalePointView3Page;
-}());
-
-//# sourceMappingURL=createSalePointView3.js.map
 
 /***/ })
 
